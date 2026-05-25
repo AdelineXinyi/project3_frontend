@@ -8,9 +8,9 @@ createApp({
       "How does team size influence the balance between disruptive innovation and developmental research in science and technology?"
     )
 
-    const useOptimization = ref(true)
-    const numCandidates = ref(3)
-    const numRounds = ref(2)
+    const useOptimization = ref(false)
+    const numCandidates = ref(1)
+    const numRounds = ref(1)
 
     const loading = ref(false)
     const error = ref("")
